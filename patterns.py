@@ -117,4 +117,39 @@
 #     print("* " * i)
 # for j in range(rows-1,0,-1):    # Starting value is reduced as there is no need to repeat central line
 #     print("* " * j)
+
+############### 9. print Floyds triangle of alphabets - Left alligned alphabets.
+# A
+# B C
+# D E F
+# G H I J
+
+# def floyds_triangle_alphabets(rows):
+#     num = 65
+#     for i in range(rows):
+#         for j in range(i+1):
+#             print(chr(num),end = " ")
+#             num += 1
+#         print()
 #
+# no_of_rows = int(input("Enter the number of rows : "))
+# floyds_triangle_alphabets(no_of_rows)
+
+############### 10. print triangle of alphabets. Same as 6
+
+# def triangle_alphabets(rows):
+#     num = 65
+#     for i in range(rows):
+#         for j in range(1,i+2):
+#             space1 = rows - i
+#             if j == 1:
+#                 print((" " * space1),chr(num),end=" ")
+#             else:
+#                 print(chr(num), end=" ")
+#             num += 1
+#         print()
+
+# rows = int(input("Enter rows of Pyramid :"))
+# triangle_alphabets(rows)
+
+
