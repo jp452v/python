@@ -137,6 +137,13 @@
 
 ############### 10. print triangle of alphabets. Same as 6
 
+# Enter rows of Pyramid :5
+#       A
+#      B C
+#     D E F
+#    G H I J
+#   K L M N O
+
 # def triangle_alphabets(rows):
 #     num = 65
 #     for i in range(rows):
