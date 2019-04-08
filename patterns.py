@@ -159,4 +159,43 @@
 # rows = int(input("Enter rows of Pyramid :"))
 # triangle_alphabets(rows)
 
+######## Class exercises Notes
+# my_list = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday',"Saturday"]
+# if (my_list.remove('Sunday') is None):
+#     raise Exception('Deleting is not allowed')
+############
+# try:
+#     x = "Hi"
+#     print(int(x))
+# except:
+#     print('Can not convert string')
+
+################ Handling exceptions pluralsight  (2 times)
+
+########## Book Module
+# name, price, ISBN
+# Add a book
+# Delete a book
+# Relace book
+# update book name
+#update book price
+#get a book
+#get all books
+# dict with name, price,  isbn
+# List
+# each item is dict
+
+
+
+list_of_books = [{'name': 'The bible', 'price':'0.99','ISBN':'1111111'}]
+
+list_of_books.append({'name': 'The bible-2', 'price':'1.99','ISBN':'2222222'})
+
+print(list_of_books)
+for each_book in list_of_books:
+    print(each_book)
+    for each_item in each_book:
+        print(each_item,each_book[each_item])
+
+
 
